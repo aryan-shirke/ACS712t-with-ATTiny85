@@ -54,7 +54,9 @@ Different models of the ACS712 have different sensitivities and resolutions. Sel
 | ACS712 Model | Max Current | Sensor Sensitivity | Resolution |
 
 | ACS712-05B | ±5 Amps  | 185 mV/Amp | 26 mA |
+
 | ACS712-20A | ±20 Amps | 100 mV/Amp | 49 mA |
+
 | ACS712-30A | ±30 Amps | 66 mV/Amp  | 74 mA |
 
 Note on Resolution: The resolution indicates the smallest change in current the ATtiny can detect. For example, if using the 20A model, the current must change by at least 49mA for the system to detect it.
